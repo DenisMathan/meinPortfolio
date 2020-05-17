@@ -1,0 +1,700 @@
+
+
+
+/*handy*/
+@media only screen
+and (min-device-width: 200px)
+and (max-device-width: 668px)
+and (orientation: portrait) {
+
+    .hintergrund {
+        background-image: url("Bilder/Hintergrund/HintergrundHandy_ohneKopf.png");
+        background-size: 100% 100%;
+        height: 450vh;
+    }
+
+    .navbar {
+        height: 10vh;
+    }
+
+    .navbar-toggler {
+        height: 100%;
+        width: 15vw;
+    }
+
+
+
+    .flex-container {
+        display: block;
+    }
+
+    .flex-item-2 {
+        width: 100vw;
+        padding: 2vw 7vw 0vw 7vw;
+
+
+
+    }
+
+    .text {
+        text-align: justify;
+        font-family: "Roboto", sans-serif;
+        color: whitesmoke;
+        font-size: 3vw;
+    }
+
+    .TitelAbstand {
+        height: 15vh;
+
+    }
+
+    .ueberschrift {
+        text-align: center;
+        font-weight: bold;
+        font-size: 10vw;
+        color: #D8B7C0;
+    }
+
+    .Titel {
+        color: #1F3C90;
+    }
+
+    .Film {
+        height: 60vh;
+    }
+
+    .unterueberschrift {
+        text-align: center;
+        font-size: 4vw;
+    }
+
+    #info {
+        height: 10vh;
+    }
+
+    #film {
+        height: 10vh;
+    }
+
+    #foto {
+        height: 10vh;
+    }
+
+    #sonst {
+        height: 10vh;
+    }
+
+    .Fotokarussel {
+
+        width:100vw;
+        height:40vh;
+        max-height: 40vh;
+        overflow: hidden;
+
+    }
+    .carousel-item{
+        height:100%;
+    }
+
+    .h-75 {
+
+        max-height: 70vw;
+
+    }
+
+    .Lightbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxinhalt {
+        width: 100vw;
+
+    }
+
+    .UeAbstand {
+        height: 5vh;
+    }
+
+    .abstand0 {
+        height: 90vh;
+    }
+    .TeilInfo{
+        height:61vh;
+    }
+
+    .abstand1 {
+        height: 3vh;
+    }
+    .TeilFilm{
+        height: 72vh;
+    }
+    .abstand2 {
+        height: 8vh;
+    }
+    .TeilFoto{
+        height:95vh;
+    }
+    .abstand3 {
+        height: 10vh;
+    }
+    .TeilSonst{
+        height:100vh
+    }
+    .abstand4 {
+        height: 25vh;
+    }
+    .computer-nav{
+        display:none;
+    }
+
+    .nav-link {
+        font-size: 6vw;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+
+        background-color: #f8f9fa;
+
+    }
+
+    .TitelPaket{
+        margin-right: 0vw;
+        text-align: center;
+        order:2;
+    }
+    .divKopf{
+        order:2;
+    }
+    #kopf{
+        margin-left: 0vw;
+        height: 60vh;
+
+    }
+}
+
+
+/*HandyQuer*/
+@media only screen
+and (min-device-width: 200px)
+and (max-device-width: 667px)
+and (orientation: landscape) {
+
+    .hintergrund {
+
+        height: 850vh;
+        background-image: url("Bilder/Hintergrund/HintergrundOhneKopf.png");
+        background-size: 100% 100%;
+    }
+    .abstand0{
+        height:100vh;
+    }
+
+
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-link {
+        font-size: 6vh;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+
+        background-color: #f8f9fa;
+
+    }
+
+
+
+    .flex-item-2 {
+        flex-grow: 1;
+        align-items: stretch;
+        width: 50vw;
+    }
+    .flex-item-4 {
+        flex-grow: 1;
+        align-items: stretch;
+        width: 25vw;
+        justify-content: center;
+        align-content: center;
+    }
+
+
+    .text {
+        text-align: justify;
+        font-family: "Roboto", sans-serif;
+        color: whitesmoke;
+        font-size: 3vh;
+        margin: 0 2vw 0 2vw;
+    }
+    .bilderrahmen{
+        margin:0 2vw 0 2vw;
+    }
+    .Fotokarussel {
+        height: 75vh;
+        max-height: 75vh;
+        overflow: hidden;
+    }
+
+    .h-75 {
+        height: 75vh;
+        max-height: 75vh;
+        overflow: hidden;
+    }
+
+    .boxinhalt {
+        height: 100vh;
+        margin: auto;
+    }
+
+    .navbar {
+        height: 10vh;
+    }
+
+
+
+
+    .myLink{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        font-size: 3vh;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        color: black;
+    }
+
+
+    .TitelAbstand {
+        height: 20vh;
+
+    }
+
+    .ueberschrift {
+        margin-left: 2vw;
+        font-weight: bold;
+        font-size: 10vh;
+        color: #D8B7C0;
+    }
+
+    .Titel {
+
+        text-align: center;
+        color: #1F3C90;
+    }
+
+
+
+    .unterueberschrift {
+        margin-left: 2vw;
+        font-size: 4vh;
+    }
+    #info{
+        height:6vh;
+    }
+    #film{
+        height:6vh;
+    }
+    #foto{
+        height:6vh;
+    }
+    #sonst{
+        height:6vh;
+    }
+    .TeilInfo{
+        height:100vh;
+    }
+    .abstand1{
+        height:10vh
+    }
+    .TeilFilm{
+        height:110vh;
+    }
+    .abstand2{
+        height:50vh
+    }
+    .TeilFoto{
+        height:270vh;
+    }
+    .abstand3{
+        height:50vh;
+    }
+    .TeilSonst{
+        height:200vh;
+    }
+    .UeAbstand{
+        height:15vh;
+    }
+    .abstand4{
+        height:20vh;
+    }
+    .fotokarusselabstand{
+        height:10vh;
+    }
+    .carousel-item{
+        height:100%;
+    }
+    .computer-nav{
+        display:none;
+    }
+    .TitelPaket{
+        margin-right: 10vw;
+        text-align: center;
+    }
+    #kopf{
+        margin-left: 10vw;
+        height: 80vh;
+        justify-content: center;
+    }
+}
+
+/*laptop*/
+@media screen
+and (min-device-width: 668px)
+{
+
+
+    .hintergrund {
+
+        height: 900vh;
+        background-image: url("Bilder/Hintergrund/HintergrundOhneKopf.png");
+        background-size: 100% 100%;
+    }
+    .abstand0{
+        height:100vh;
+    }
+
+
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .flex-item-2 {
+        flex-grow: 1;
+        width:50%;
+
+
+
+    }
+    .flex-item-4 {
+        flex-grow: 1;
+        align-items: stretch;
+        width: 25vw;
+        justify-content: center;
+        align-content: center;
+    }
+
+
+    .text {
+        text-align: justify;
+        font-family: "Roboto", sans-serif;
+        color: whitesmoke;
+        font-size: 3vh;
+        margin: 0 2vw 0 2vw;
+    }
+    .bilderrahmen{
+        margin:0 2vw 0 2vw;
+    }
+    .Fotokarussel {
+        height: 75vh;
+        max-height: 75vh;
+        overflow: hidden;
+    }
+
+    .h-75 {
+        height: 75vh;
+        max-height: 75vh;
+        overflow: hidden;
+    }
+
+    .boxinhalt {
+        height: 100vh;
+        margin: auto;
+    }
+
+    .navbar {
+        height: 8vh;
+    }
+
+    .navbar-expand {
+        display: -ms-flexbox !important;
+        display: none !important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    }
+    .navbar-collapse{
+        display:none;
+    }
+    .navbar-toggler{
+        display:none;
+    }
+    .myLink{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        font-size: 3vh;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        color: black;
+    }
+
+
+    .TitelAbstand {
+        height: 20vh;
+
+    }
+
+    .ueberschrift {
+        margin-left: 2vw;
+        font-weight: bold;
+        font-size: 8vh;
+        color: #D8B7C0;
+    }
+
+    .Titel {
+
+
+        color: #1F3C90;
+    }
+    .TitelPaket{
+        margin-right: 10vw;
+        text-align: center;
+    }
+    #kopf{
+        margin-left: 10vw;
+       height: 80vh;
+       justify-content: center;
+    }
+
+
+    .unterueberschrift {
+        margin-left: 2vw;
+        font-size: 4vh;
+    }
+    #info{
+        height:6vh;
+    }
+    #film{
+        height:6vh;
+    }
+    #foto{
+        height:6vh;
+    }
+    #sonst{
+        height:6vh;
+    }
+    .TeilInfo{
+        height:100vh;
+    }
+    .abstand1{
+        height:10vh
+    }
+    .TeilFilm{
+        height:110vh;
+    }
+    .abstand2{
+        height:50vh
+    }
+    .TeilFoto{
+        height:270vh;
+    }
+    .abstand3{
+        height:50vh;
+    }
+    .TeilSonst{
+        height:250vh;
+    }
+    .fueller{
+        height:20vh;
+    }
+    .UeAbstand{
+        height:15vh;
+    }
+    .abstand4{
+        height:20vh;
+    }
+    .fotokarusselabstand{
+        height:10vh;
+    }
+    .carousel-item{
+        height:100%;
+    }
+
+}
+
+
+.navbar-toggler {
+    height: 100%;
+
+}
+
+.navbar-toggler-icon {
+    height: 100%;
+}
+
+.navbar-nav {
+    background-color: white;
+
+}
+
+
+.unsichtbar {
+    opacity: 0;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.width100 {
+    position: fixed;
+    width: 100vw;
+    color: #0c5460;
+}
+w-100{
+    width:100%;
+}
+
+#profil {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.navbar {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.nav-link {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.video-carousel {
+    height: 50%;
+    -webkit-transform: translate(0, 50%);
+}
+
+
+.none {
+    display: none;
+}
+
+
+.gal {
+
+
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+
+
+}
+
+.gal img {
+    width: 100%;
+    padding: 7px 0;
+}
+
+
+.h-50 {
+    height: 50vh;
+}
+
+.h-100 {
+    height: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.hp-100 {
+    height: 100%;
+    width: auto;
+}
+
+.LightboxHintergrund {
+    position: fixed;
+
+    z-index: 99;
+}
+
+.Lightbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+}
+
+.LBHintergrund {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0c5460;
+    opacity: 95%;
+}
+
+.galerie {
+    z-index: 50;
+}
+
+
+.box1 {
+    box-shadow: #1b1e21;
+}
+
+.box1:hover {
+    cursor: pointer;
+
+}
+
+.box0:hover {
+    cursor: pointer;
+}
+
+.raus {
+    position: absolute;
+    right: 5vw;
+    top: 2.5vh;
+    width: 30px;
+    z-index: 200;
+}
+
+.raus:hover {
+    cursor: pointer;
+}
+
+.infoFarbe {
+    color: #1F3C90;
+}
+
+.filmFarbe {
+    color: #D8B7C0;
+}
+
+.FotoFarbe {
+
+    color: #F7F6F6;
+}
+
+.sonstFarbe {
+    color: #343434;
+}
+
+.footer-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 1.7vw;
+
+}
+
+

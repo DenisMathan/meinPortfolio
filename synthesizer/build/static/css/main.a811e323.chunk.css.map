@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,gBAGE,WACF,CACA,iBACE,wBACF,CACA,MACE,YAEF,CACA,eACE,eACF","file":"main.a811e323.chunk.css","sourcesContent":["body,\nhtml,\n#root {\n  height: 100%;\n}\n.backgroundcolor{\n  background-color: #1F3C90;\n}\n.test{\n  height:100vh;\n\n}\n.hervorgehoben{\n  font-weight: bold;\n}"]}
